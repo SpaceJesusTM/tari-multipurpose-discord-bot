@@ -473,9 +473,9 @@ async def node_connect():
     await bot.wait_until_ready()
     # May need to look up for info on nodes
     await wavelink.NodePool.create_node(bot=bot, 
-                                        host='lavalink.mariliun.ml', 
+                                        host='host', 
                                         port=443, 
-                                        password='lavaliun', 
+                                        password='password', 
                                         https=True)
 
 @bot.event
