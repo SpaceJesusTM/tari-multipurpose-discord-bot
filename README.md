@@ -25,6 +25,12 @@ All Commands:
 - $queue: Displays all the songs in the queue. Bot disconnects once queue is empty.
 - $current: Displays the current playing song and status of Tari's music functions.
 
+To utilize bot...
+- Create an application (bot) on the Discord developer site and locate the token, replace 'TOKEN' at the bottom of main.py.
+- Replace the fields in node_connect() with a valid Lavalink (Wavelink) server (ie: https://www.freelavalink.ga/ or create/host your own server).
+- Invite the bot to your server using the Discord developer site.
+*There are many tutorials if you get stuck or would like more information on this process.
+  
 Credit to...
 - https://www.youtube.com/watch?v=SS_RU2Slh-M&list=PLJXEdhN0Tc3LRT716enS1LcY4OF8vg1VA&index=5 - for tutorials on utilizing the discord.py Library as well as tutorials on the Server Info. and Tic Tac Toe commands.
 - https://www.youtube.com/watch?v=_1DKYyFniNk&list=PLW4Cg4G29vz0enf3ZeqWPPd_-Z3YK8mH4&index=21 - for tutorials on how to implement and utilize the Wavelink Library.
