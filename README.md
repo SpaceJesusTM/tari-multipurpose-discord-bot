@@ -29,6 +29,7 @@ To utilize bot...
 - Create an application (bot) on the Discord developer site and locate the token, replace 'TOKEN' at the bottom of main.py.
 - Replace the fields in node_connect() with a valid Lavalink (Wavelink) server (ie: https://www.freelavalink.ga/ or create/host your own server).
 - Invite the bot to your server using the Discord developer site.
+
 *There are many tutorials if you get stuck or would like more information on this process.
   
 Credit to...
